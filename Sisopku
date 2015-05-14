@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class umur {
+
+ public static void main(String[]args) {
+
+  Scanner masuk = new Scanner(System.in);
+  System.out.print("Masukkan umur Anda : ");
+  int a = masuk.nextInt();
+
+	if(a<6){
+	System.out.println("Anda termasuk dalam kategori Bayi");
+	}
+	else if(a<11){
+	System.out.println("Anda termasuk dalam kategori Anak-anak");
+	}
+	else if(a<18){
+	System.out.println("Anda termasuk dalam kategori ABG");
+	}
+	else if(a<23){
+	System.out.println("Anda termasuk dalam kategori Remaja");
+	}
+	else if(a<56){
+	System.out.println("Anda termasuk dalam kategori Dewasa");
+	}
+	else{
+	System.out.println("Anda termasuk dalam kategori Lansia");
+	}
+
+}
+}
